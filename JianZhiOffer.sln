@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_07_rebuild_binary_tree", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_08_binary_tree_get_next_node", "_08_binary_tree_get_next_node\_08_binary_tree_get_next_node.vcxproj", "{5D0A35AD-7EEE-43A6-94F3-83181FC50944}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_09_queue_used_2_stack", "_09_queue_used_2_stack\_09_queue_used_2_stack.vcxproj", "{AAF48BCB-AF48-41BC-9A9D-8379194304AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{5D0A35AD-7EEE-43A6-94F3-83181FC50944}.Release|x64.Build.0 = Release|x64
 		{5D0A35AD-7EEE-43A6-94F3-83181FC50944}.Release|x86.ActiveCfg = Release|Win32
 		{5D0A35AD-7EEE-43A6-94F3-83181FC50944}.Release|x86.Build.0 = Release|Win32
+		{AAF48BCB-AF48-41BC-9A9D-8379194304AE}.Debug|x64.ActiveCfg = Debug|x64
+		{AAF48BCB-AF48-41BC-9A9D-8379194304AE}.Debug|x64.Build.0 = Debug|x64
+		{AAF48BCB-AF48-41BC-9A9D-8379194304AE}.Debug|x86.ActiveCfg = Debug|Win32
+		{AAF48BCB-AF48-41BC-9A9D-8379194304AE}.Debug|x86.Build.0 = Debug|Win32
+		{AAF48BCB-AF48-41BC-9A9D-8379194304AE}.Release|x64.ActiveCfg = Release|x64
+		{AAF48BCB-AF48-41BC-9A9D-8379194304AE}.Release|x64.Build.0 = Release|x64
+		{AAF48BCB-AF48-41BC-9A9D-8379194304AE}.Release|x86.ActiveCfg = Release|Win32
+		{AAF48BCB-AF48-41BC-9A9D-8379194304AE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
