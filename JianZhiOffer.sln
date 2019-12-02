@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_09_queue_used_2_stack", "_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_10_fibonacci_sequence", "_10_fibonacci_sequence\_10_fibonacci_sequence.vcxproj", "{A9039B2A-9D6B-46FD-960A-9E52CA83CDA5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_11_min_number_of_rotation_arry", "_11_min_number_of_rotation_arry\_11_min_number_of_rotation_arry.vcxproj", "{423A571F-9E56-46C4-A6ED-EB5C1AB4328C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{A9039B2A-9D6B-46FD-960A-9E52CA83CDA5}.Release|x64.Build.0 = Release|x64
 		{A9039B2A-9D6B-46FD-960A-9E52CA83CDA5}.Release|x86.ActiveCfg = Release|Win32
 		{A9039B2A-9D6B-46FD-960A-9E52CA83CDA5}.Release|x86.Build.0 = Release|Win32
+		{423A571F-9E56-46C4-A6ED-EB5C1AB4328C}.Debug|x64.ActiveCfg = Debug|x64
+		{423A571F-9E56-46C4-A6ED-EB5C1AB4328C}.Debug|x64.Build.0 = Debug|x64
+		{423A571F-9E56-46C4-A6ED-EB5C1AB4328C}.Debug|x86.ActiveCfg = Debug|Win32
+		{423A571F-9E56-46C4-A6ED-EB5C1AB4328C}.Debug|x86.Build.0 = Debug|Win32
+		{423A571F-9E56-46C4-A6ED-EB5C1AB4328C}.Release|x64.ActiveCfg = Release|x64
+		{423A571F-9E56-46C4-A6ED-EB5C1AB4328C}.Release|x64.Build.0 = Release|x64
+		{423A571F-9E56-46C4-A6ED-EB5C1AB4328C}.Release|x86.ActiveCfg = Release|Win32
+		{423A571F-9E56-46C4-A6ED-EB5C1AB4328C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
