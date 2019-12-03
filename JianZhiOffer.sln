@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_12_String_path_in_matrix",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_13_Robot_mov_range", "_13_Robot_mov_range\_13_Robot_mov_range.vcxproj", "{099E7912-CDCC-4220-888B-E9F60BBA55D1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_14_cutRope", "_14_cutRope\_14_cutRope.vcxproj", "{3496ABDF-4241-4378-97BA-1ED05BA29C82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{099E7912-CDCC-4220-888B-E9F60BBA55D1}.Release|x64.Build.0 = Release|x64
 		{099E7912-CDCC-4220-888B-E9F60BBA55D1}.Release|x86.ActiveCfg = Release|Win32
 		{099E7912-CDCC-4220-888B-E9F60BBA55D1}.Release|x86.Build.0 = Release|Win32
+		{3496ABDF-4241-4378-97BA-1ED05BA29C82}.Debug|x64.ActiveCfg = Debug|x64
+		{3496ABDF-4241-4378-97BA-1ED05BA29C82}.Debug|x64.Build.0 = Debug|x64
+		{3496ABDF-4241-4378-97BA-1ED05BA29C82}.Debug|x86.ActiveCfg = Debug|Win32
+		{3496ABDF-4241-4378-97BA-1ED05BA29C82}.Debug|x86.Build.0 = Debug|Win32
+		{3496ABDF-4241-4378-97BA-1ED05BA29C82}.Release|x64.ActiveCfg = Release|x64
+		{3496ABDF-4241-4378-97BA-1ED05BA29C82}.Release|x64.Build.0 = Release|x64
+		{3496ABDF-4241-4378-97BA-1ED05BA29C82}.Release|x86.ActiveCfg = Release|Win32
+		{3496ABDF-4241-4378-97BA-1ED05BA29C82}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
