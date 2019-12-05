@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_15_number_of_1_in_binary",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_16_integer_power_of_integer", "_16_integer_power_of_integer\_16_integer_power_of_integer.vcxproj", "{0B5E1F9C-E98B-4D6E-B9BF-062535F81F74}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_16_print_1_to_max_of_n_digits", "_16_print_1_to_max_of_n_digits\_16_print_1_to_max_of_n_digits.vcxproj", "{1A58816D-B01F-4CDD-9F0F-B9F6A04B53C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{0B5E1F9C-E98B-4D6E-B9BF-062535F81F74}.Release|x64.Build.0 = Release|x64
 		{0B5E1F9C-E98B-4D6E-B9BF-062535F81F74}.Release|x86.ActiveCfg = Release|Win32
 		{0B5E1F9C-E98B-4D6E-B9BF-062535F81F74}.Release|x86.Build.0 = Release|Win32
+		{1A58816D-B01F-4CDD-9F0F-B9F6A04B53C8}.Debug|x64.ActiveCfg = Debug|x64
+		{1A58816D-B01F-4CDD-9F0F-B9F6A04B53C8}.Debug|x64.Build.0 = Debug|x64
+		{1A58816D-B01F-4CDD-9F0F-B9F6A04B53C8}.Debug|x86.ActiveCfg = Debug|Win32
+		{1A58816D-B01F-4CDD-9F0F-B9F6A04B53C8}.Debug|x86.Build.0 = Debug|Win32
+		{1A58816D-B01F-4CDD-9F0F-B9F6A04B53C8}.Release|x64.ActiveCfg = Release|x64
+		{1A58816D-B01F-4CDD-9F0F-B9F6A04B53C8}.Release|x64.Build.0 = Release|x64
+		{1A58816D-B01F-4CDD-9F0F-B9F6A04B53C8}.Release|x86.ActiveCfg = Release|Win32
+		{1A58816D-B01F-4CDD-9F0F-B9F6A04B53C8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
