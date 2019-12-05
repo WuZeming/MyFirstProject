@@ -41,11 +41,13 @@ void DeleteDuplication(ListNode** pHead)
 				preNode->m_pNext = currNode;
 				preNode = currNode;
 			}
-
 			currNode = currNode->m_pNext;
 		}
 	}
-
+	if (preNode != nullptr)// 删除尾节点后，最后节点应指向null
+	{
+		preNode->m_pNext = nullptr;
+	}
 }
 
 
