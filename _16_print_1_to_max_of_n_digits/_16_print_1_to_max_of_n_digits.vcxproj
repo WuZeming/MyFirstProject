@@ -151,7 +151,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp" />
-    <ClCompile Include="_17_print_1_to_max_of_n_digits.cpp" />
+    <ClCompile Include="_16_print_1_to_max_of_n_digits.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
