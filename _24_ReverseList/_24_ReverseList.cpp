@@ -6,8 +6,8 @@
 
 #include <cstdio>
 #include "..\Utilities\List.h"
-
-ListNode* ReverseList(ListNode* pHead)
+// 直接反转
+ListNode* ReverseList1(ListNode* pHead)
 {
 	if (pHead == nullptr)
 	{
@@ -27,7 +27,29 @@ ListNode* ReverseList(ListNode* pHead)
 	return pPre;
 
 }
+// 递归反转
+ListNode* reverseCore(ListNode* pHead)
+{
+	if (pHead->m_pNext == nullptr)
+	{
+		return pHead;
+	}
+	ListNode* list = reverseCore(pHead->m_pNext);
 
+	pHead->m_pNext->m_pNext= pHead;
+	pHead->m_pNext = nullptr;
+	return list;
+}
+
+ListNode* ReverseList(ListNode* pHead)
+{
+	if (pHead ==nullptr)
+	{
+		return nullptr;
+	}
+	return reverseCore(pHead);
+
+}
 // ====================测试代码====================
 ListNode* Test(ListNode* pHead)
 {
