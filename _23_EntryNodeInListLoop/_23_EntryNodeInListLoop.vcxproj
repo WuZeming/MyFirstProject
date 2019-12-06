@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{59AA55C8-95FE-47D2-91C7-E61DC7F819B1}</ProjectGuid>
+    <ProjectGuid>{34763E64-0162-423C-AFD2-A2204E1E96BF}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>_23_EntryNodeInListLoop</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
@@ -145,10 +145,12 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Utilities\List.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\Utilities\List.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="_23_EntryNodeInListLoop.cpp" />
   </ItemGroup>
