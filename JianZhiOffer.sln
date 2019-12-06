@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_18_delete_node_in_list", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_18_02_delete_duplicate_node", "_18_02_delete_duplicate_node\_18_02_delete_duplicate_node.vcxproj", "{009A51B1-FF98-4008-B1DE-F21776EA14CE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_19_regular_expression_match", "_19_regular_expression_match\_19_regular_expression_match.vcxproj", "{D559345D-B99F-4EAB-812B-394F6715C03A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{009A51B1-FF98-4008-B1DE-F21776EA14CE}.Release|x64.Build.0 = Release|x64
 		{009A51B1-FF98-4008-B1DE-F21776EA14CE}.Release|x86.ActiveCfg = Release|Win32
 		{009A51B1-FF98-4008-B1DE-F21776EA14CE}.Release|x86.Build.0 = Release|Win32
+		{D559345D-B99F-4EAB-812B-394F6715C03A}.Debug|x64.ActiveCfg = Debug|x64
+		{D559345D-B99F-4EAB-812B-394F6715C03A}.Debug|x64.Build.0 = Debug|x64
+		{D559345D-B99F-4EAB-812B-394F6715C03A}.Debug|x86.ActiveCfg = Debug|Win32
+		{D559345D-B99F-4EAB-812B-394F6715C03A}.Debug|x86.Build.0 = Debug|Win32
+		{D559345D-B99F-4EAB-812B-394F6715C03A}.Release|x64.ActiveCfg = Release|x64
+		{D559345D-B99F-4EAB-812B-394F6715C03A}.Release|x64.Build.0 = Release|x64
+		{D559345D-B99F-4EAB-812B-394F6715C03A}.Release|x86.ActiveCfg = Release|Win32
+		{D559345D-B99F-4EAB-812B-394F6715C03A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
