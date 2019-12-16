@@ -10,7 +10,56 @@
 
 void Print(BinaryTreeNode* pRoot)
 {
-	
+	if (pRoot == nullptr)
+	{
+		return;
+	}
+	std::stack<BinaryTreeNode*> stackData1, stackData2;
+	stackData1.push(pRoot);
+	bool odd = true;
+	while (!stackData1.empty() || !stackData2.empty())
+	{
+		while (odd == true && !stackData1.empty())
+		{
+			BinaryTreeNode* pNode = stackData1.top();
+			stackData1.pop();
+			printf("%d  ",pNode->m_nValue);
+			if (pNode->m_pLeft!= nullptr)
+			{
+				stackData2.push(pNode->m_pLeft);
+			}
+			if (pNode->m_pRight!= nullptr)
+			{
+				stackData2.push(pNode->m_pRight);
+			}
+		}
+		if(stackData1.empty())
+		{
+			printf("\n");
+			odd = false;
+		}
+		while (odd == false && !stackData2.empty())
+		{
+			BinaryTreeNode* pNode = stackData2.top();
+			stackData2.pop();
+			printf("%d  ", pNode->m_nValue);
+			if (pNode->m_pRight != nullptr)
+			{
+				stackData1.push(pNode->m_pRight);
+			}
+			if (pNode->m_pLeft != nullptr)
+			{
+				stackData1.push(pNode->m_pLeft);
+			}
+		}
+		if(stackData2.empty())
+		{
+			printf("\n");
+			odd = true;
+
+		}
+	}
+
 }
 
 // ====================≤‚ ‘¥˙¬Î====================
