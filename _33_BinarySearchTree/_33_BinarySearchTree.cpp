@@ -42,6 +42,7 @@ bool VerifySquenceOfBST(int sequence[], int length)
 	return left && right;
 }
 
+
 // ====================²âÊÔ´úÂë====================
 void Test(const char* testName, int sequence[], int length, bool expected)
 {
