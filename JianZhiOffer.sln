@@ -71,6 +71,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_35_ComplexListClone", "_35
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_36_convert_binarySearchTree", "_36_convert_binarySearchTree\_36_convert_binarySearchTree.vcxproj", "{0270A5C6-C001-4493-AFD8-51EE8B6D635D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_37_serializeBinaryTree", "_37_serializeBinaryTree\_37_serializeBinaryTree.vcxproj", "{AFC7BA8D-ABAF-478E-9D04-014B879FD060}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_38_StringPermutation", "_38_StringPermutation\_38_StringPermutation.vcxproj", "{4DEC5BDF-FAAE-43D3-9C81-430FA185D9CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -351,6 +355,22 @@ Global
 		{0270A5C6-C001-4493-AFD8-51EE8B6D635D}.Release|x64.Build.0 = Release|x64
 		{0270A5C6-C001-4493-AFD8-51EE8B6D635D}.Release|x86.ActiveCfg = Release|Win32
 		{0270A5C6-C001-4493-AFD8-51EE8B6D635D}.Release|x86.Build.0 = Release|Win32
+		{AFC7BA8D-ABAF-478E-9D04-014B879FD060}.Debug|x64.ActiveCfg = Debug|x64
+		{AFC7BA8D-ABAF-478E-9D04-014B879FD060}.Debug|x64.Build.0 = Debug|x64
+		{AFC7BA8D-ABAF-478E-9D04-014B879FD060}.Debug|x86.ActiveCfg = Debug|Win32
+		{AFC7BA8D-ABAF-478E-9D04-014B879FD060}.Debug|x86.Build.0 = Debug|Win32
+		{AFC7BA8D-ABAF-478E-9D04-014B879FD060}.Release|x64.ActiveCfg = Release|x64
+		{AFC7BA8D-ABAF-478E-9D04-014B879FD060}.Release|x64.Build.0 = Release|x64
+		{AFC7BA8D-ABAF-478E-9D04-014B879FD060}.Release|x86.ActiveCfg = Release|Win32
+		{AFC7BA8D-ABAF-478E-9D04-014B879FD060}.Release|x86.Build.0 = Release|Win32
+		{4DEC5BDF-FAAE-43D3-9C81-430FA185D9CC}.Debug|x64.ActiveCfg = Debug|x64
+		{4DEC5BDF-FAAE-43D3-9C81-430FA185D9CC}.Debug|x64.Build.0 = Debug|x64
+		{4DEC5BDF-FAAE-43D3-9C81-430FA185D9CC}.Debug|x86.ActiveCfg = Debug|Win32
+		{4DEC5BDF-FAAE-43D3-9C81-430FA185D9CC}.Debug|x86.Build.0 = Debug|Win32
+		{4DEC5BDF-FAAE-43D3-9C81-430FA185D9CC}.Release|x64.ActiveCfg = Release|x64
+		{4DEC5BDF-FAAE-43D3-9C81-430FA185D9CC}.Release|x64.Build.0 = Release|x64
+		{4DEC5BDF-FAAE-43D3-9C81-430FA185D9CC}.Release|x86.ActiveCfg = Release|Win32
+		{4DEC5BDF-FAAE-43D3-9C81-430FA185D9CC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
