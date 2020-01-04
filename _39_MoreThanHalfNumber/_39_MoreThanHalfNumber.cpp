@@ -98,11 +98,13 @@ int MoreThanHalfNum_Solution1(int* numbers, int length)
 	{
 		if (index<middle)
 		{
-			index = Partition(numbers, length, index+1, end);
+			start = index + 1;
+			index = Partition(numbers, length, start, end);
 		}
 		if (index>middle)
 		{
-			index = Partition(numbers, length, start, index - 1);
+			end = index - 1;
+			index = Partition(numbers, length, start, end);
 		}
 	}
 	int result = numbers[middle];
