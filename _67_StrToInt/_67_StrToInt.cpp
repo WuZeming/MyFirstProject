@@ -25,7 +25,7 @@ int g_nStatus = kValid;
 int StrToInt(const char* str)
 {
 	g_nStatus = kInvalid;
-	if ( str == nullptr || *str == '\0')
+	if (str == nullptr || *str == '\0')
 	{
 		return 0;
 	}
@@ -35,28 +35,28 @@ int StrToInt(const char* str)
 		minus = 1;
 		str++;
 	}
-	else if(*str == '+')
+	else if (*str == '+')
 	{
 		str++;
 	}
 	long long num = 0;
-	if (*str!='\0')
+	if (*str != '\0')
 	{
 		num = StrToIntCore(str, minus);
 	}
-	
+
 	return (int)num;
 }
 
 long long StrToIntCore(const char* digit, bool minus)
 {
 	long long num = 0;
-	while (*digit!= '\0')
+	while (*digit != '\0')
 	{
 		if (*digit >= '0'&& *digit <= '9')
 		{
 			int flg = minus ? -1 : 1;
-			num = num*10 + flg*(*digit - '0');
+			num = num * 10 + flg*(*digit - '0');
 
 			if ((minus && num<(int)0x80000000) || (!minus && num>(int)0x7FFFFFFF))
 			{
