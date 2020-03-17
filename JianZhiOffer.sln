@@ -137,6 +137,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_59_02_MaxValueOfSequence",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_60_DicesProbability", "_60_DicesProbability\_60_DicesProbability.vcxproj", "{AFB9CB32-9C96-4A3C-841C-381EC3774113}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_61_IsContinious", "_61_IsContinious\_61_IsContinious.vcxproj", "{8D81B5D6-4A58-4084-BFDB-DB2E8054C655}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_62_LastNumberInCircle", "_62_LastNumberInCircle\_62_LastNumberInCircle.vcxproj", "{CB40DE82-8DCC-4CCD-9035-3DDB48DB0408}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -681,6 +685,22 @@ Global
 		{AFB9CB32-9C96-4A3C-841C-381EC3774113}.Release|x64.Build.0 = Release|x64
 		{AFB9CB32-9C96-4A3C-841C-381EC3774113}.Release|x86.ActiveCfg = Release|Win32
 		{AFB9CB32-9C96-4A3C-841C-381EC3774113}.Release|x86.Build.0 = Release|Win32
+		{8D81B5D6-4A58-4084-BFDB-DB2E8054C655}.Debug|x64.ActiveCfg = Debug|x64
+		{8D81B5D6-4A58-4084-BFDB-DB2E8054C655}.Debug|x64.Build.0 = Debug|x64
+		{8D81B5D6-4A58-4084-BFDB-DB2E8054C655}.Debug|x86.ActiveCfg = Debug|Win32
+		{8D81B5D6-4A58-4084-BFDB-DB2E8054C655}.Debug|x86.Build.0 = Debug|Win32
+		{8D81B5D6-4A58-4084-BFDB-DB2E8054C655}.Release|x64.ActiveCfg = Release|x64
+		{8D81B5D6-4A58-4084-BFDB-DB2E8054C655}.Release|x64.Build.0 = Release|x64
+		{8D81B5D6-4A58-4084-BFDB-DB2E8054C655}.Release|x86.ActiveCfg = Release|Win32
+		{8D81B5D6-4A58-4084-BFDB-DB2E8054C655}.Release|x86.Build.0 = Release|Win32
+		{CB40DE82-8DCC-4CCD-9035-3DDB48DB0408}.Debug|x64.ActiveCfg = Debug|x64
+		{CB40DE82-8DCC-4CCD-9035-3DDB48DB0408}.Debug|x64.Build.0 = Debug|x64
+		{CB40DE82-8DCC-4CCD-9035-3DDB48DB0408}.Debug|x86.ActiveCfg = Debug|Win32
+		{CB40DE82-8DCC-4CCD-9035-3DDB48DB0408}.Debug|x86.Build.0 = Debug|Win32
+		{CB40DE82-8DCC-4CCD-9035-3DDB48DB0408}.Release|x64.ActiveCfg = Release|x64
+		{CB40DE82-8DCC-4CCD-9035-3DDB48DB0408}.Release|x64.Build.0 = Release|x64
+		{CB40DE82-8DCC-4CCD-9035-3DDB48DB0408}.Release|x86.ActiveCfg = Release|Win32
+		{CB40DE82-8DCC-4CCD-9035-3DDB48DB0408}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
